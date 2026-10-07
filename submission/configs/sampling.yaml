@@ -1,0 +1,4 @@
+# Uretim (generation) parametreleri - !include ile yuklenir
+temperature: 0.0
+top_p: 1.0
+max_output_tokens: 2048

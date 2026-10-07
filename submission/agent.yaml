@@ -1,0 +1,26 @@
+# Google ADK Agent Config - kök ajan
+# Model yarismaca sabit: sadece bu varyant kullanilabilir.
+name: root_coder
+model: gemma-4-31b-it-qat-w4a16-ct
+description: >
+  Otonom yazilim muhendisligi ajani. Bir repodaki issue'yu okur,
+  kod grafigi araclariyla ilgili kodu bulur, duzeltmeyi yapar ve
+  patch (git diff) olarak teslim eder.
+
+# System prompt'u ayri dosyadan yukler (!include yolu bu dosyaya gore)
+instruction: !include prompts/system.md
+
+# LoRA ek beyni (egitince adapters/ altina gelecek). Simdilik yorumda:
+# adapter: main_lora
+
+# Ajanin kullanabilecegi harness araclari
+tools:
+  - run_command
+  - submit_patch
+  - get_status
+  - read_file
+  - edit_file
+  - write_file
+  - get_code_neighbors
+  - search_similar_code
+  - get_code_subgraph

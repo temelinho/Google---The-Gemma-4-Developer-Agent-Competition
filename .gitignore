@@ -1,0 +1,10 @@
+# Egitilmis agirliklar ve veri GitHub'a konmaz (Kaggle Dataset'te paylasilir)
+submission/adapters/*/adapter_model.safetensors
+*.safetensors
+*.bin
+*.ckpt
+training/data/
+training/trajectories/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

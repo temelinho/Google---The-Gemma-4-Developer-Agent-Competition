@@ -10,6 +10,9 @@ description: >
 # System prompt'u ayri dosyadan yukler (!include yolu bu dosyaya gore)
 instruction: !include prompts/system.md
 
+# Uretim parametrelerini yukle (sampling.yaml)
+generate_content_config: !include configs/sampling.yaml
+
 # LoRA ek beyni (egitince adapters/ altina gelecek). Simdilik yorumda:
 # adapter: main_lora
 

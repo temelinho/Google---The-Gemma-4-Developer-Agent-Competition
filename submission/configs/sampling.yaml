@@ -1,4 +1,10 @@
-# Uretim (generation) parametreleri - !include ile yuklenir
+# Uretim parametreleri (!include ile agent.yaml'a baglanir)
+# Harness: max_output_tokens 1..32768 (varsayilan 16384), context penceresi 32768.
 temperature: 0.0
 top_p: 1.0
-max_output_tokens: 2048
+max_output_tokens: 16384
+
+# vLLM + LoRA ile sunumda thinking_level YERINE sunlari kullan (harness uyarisi):
+thinking_config:
+  include_thoughts: true
+  thinking_budget: 4096

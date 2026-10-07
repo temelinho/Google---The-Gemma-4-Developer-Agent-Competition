@@ -1,0 +1,7 @@
+# Opsiyonel per-task butce. Toplam butce yine de 12 saat (tum gorevler).
+# Bunlar baslangic degerleri; strateji netlesince ayarlanacak.
+evaluation:
+  timeout_seconds: 300     # tek komut zaman asimi
+  max_tool_calls: 80       # gorev basi arac cagrisi
+  max_time_minutes: 30     # gorev basi sure
+  max_turns: 100           # gorev basi tur

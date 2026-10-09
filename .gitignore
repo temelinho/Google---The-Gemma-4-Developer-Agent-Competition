@@ -8,3 +8,7 @@ training/trajectories/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Kaggle indirilen buyuk veri ve build ciktisi
+kaggle_data/
+submission.zip

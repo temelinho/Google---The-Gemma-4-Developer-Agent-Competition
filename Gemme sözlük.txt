@@ -2,3 +2,9 @@ Gemme sözlük:
 Trajectory (iz / çözüm kaydı): Ustanın bir hatayı baştan sona nasıl çözdüğünün adım adım kaydı. "Önce şu dosyayı açtı → şu satırı buldu → şöyle değiştirdi → teslim etti." Modele gösterdiğimiz ders malzemesi bu.
 Fine-tune: Bu ders malzemelerini modele göstererek onu eğitme işi.
 LoRA: Modeli komple baştan eğitmek çok pahalı (milyonlarca dolarlık donanım ister). LoRA, modelin tamamına dokunmadan ona küçük bir "ek beyin modülü" takma yöntemi. Ucuz, hızlı, senin bütçenle yapılabilir. Yarışma da zaten "bize bu küçük modülü (adapter dosyası) gönder" diyor.
+agent.yaml → ekip kadrosu. "Baş geliştirici root_coder, elinde şu araçlar; ihtiyaç olunca code_analyzer'ı araç gibi çağırabilir."
+sub_agents/code_analyzer.yaml → kâşifin tanımı. "Adın analist, sadece okuma+arama araçların var."
+prompts/system.md → baş geliştiricinin el kitabı (nasıl davranacak, hangi tuzaklara düşmeyecek).
+prompts/analyzer.md → kâşifin el kitabı ("sadece bul ve kısa rapor ver, değiştirme").
+configs/sampling.yaml → ikisinin de düşünme ayarı (ne kadar düşünsün, cevap uzunluğu).
+eval_config.yaml → görev başı süre/bütçe sınırı.

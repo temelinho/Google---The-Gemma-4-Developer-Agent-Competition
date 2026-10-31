@@ -1,0 +1,14 @@
+{
+  "notebook_url": "https://www.kaggle.com/code/muhammettemel/gemma-evidence-coder-v4-validation",
+  "script_version_id": 363440630,
+  "visibility": "private",
+  "execution": "Save & Run All (Commit)",
+  "accelerator": "GPU L4 x4",
+  "candidate_sha256": "6eb13eee267e0a3218da1cdef5c00a322b75ba050bca6c6772cc4c74208c40c7",
+  "source_hash_verified_in_runtime": true,
+  "status_at_recording": "completed",
+  "competition_final_submit_clicked": false,
+  "notes": "Earlier save attempts failed due to GPU cap and then draft sequence conflict; this is the actual successfully launched version.",
+  "completed_tasks": 12,
+  "resolved_tasks": 0
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "name": "run_command",
+    "parameters": {
+      "properties": {
+        "command": {
+          "type": "STRING"
+        }
+      },
+      "required": [
+        "command"
+      ],
+      "type": "OBJECT"
+    }
+  },
+  {
+    "name": "read_file",
+    "parameters": {
+      "properties": {
+        "filepath": {
+          "type": "STRING"
+        },
+        "start_line": {
+          "any_of": [
+            {
+              "type": "INTEGER"
+            },
+            {
+              "type": "NULL"
+            }
+          ],
+          "nullable": true
+        },
+        "end_line": {
+          "any_of": [
+            {
+              "type": "INTEGER"
+            },
+            {
+              "type": "NULL"
+            }
+          ],
+          "nullable": true
+        }
+      },
+      "required": [
+        "filepath"
+      ],
+      "type": "OBJECT"
+    }
+  },
+  {
+    "name": "edit_file",
+    "parameters": {
+      "properties": {
+        "filepath": {
+          "type": "STRING"
+        },
+        "old_string": {
+          "type": "STRING"
+        },
+        "new_string": {
+          "type": "STRING"
+        },
+        "allow_multiple": {
+          "default": false,
+          "type": "BOOLEAN"
+        }
+      },
+      "required": [
+        "filepath",
+        "old_string",
+        "new_string"
+      ],
+      "type": "OBJECT"
+    }
+  },
+  {
+    "name": "write_file",
+    "parameters": {
+      "properties": {
+        "filepath": {
+          "type": "STRING"
+        },
+        "content": {
+          "type": "STRING"
+        }
+      },
+      "required": [
+        "filepath",
+        "content"
+      ],
+      "type": "OBJECT"
+    }
+  },
+  {
+    "name": "get_status"
+  },
+  {
+    "name": "submit_patch"
+  },
+  {
+    "name": "get_code_neighbors",
+    "parameters": {
+      "properties": {
+        "node": {
+          "type": "STRING"
+        },
+        "edge_type": {
+          "any_of": [
+            {
+              "type": "STRING"
+            },
+            {
+              "type": "NULL"
+            }
+          ],
+          "nullable": true
+        },
+        "max_neighbors": {
+          "default": 50,
+          "type": "INTEGER"
+        }
+      },
+      "required": [
+        "node"
+      ],
+      "type": "OBJECT"
+    }
+  },
+  {
+    "name": "search_similar_code",
+    "parameters": {
+      "properties": {
+        "query": {
+          "type": "STRING"
+        },
+        "k": {
+          "default": 10,
+          "type": "INTEGER"
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "type": "OBJECT"
+    }
+  },
+  {
+    "name": "get_code_subgraph",
+    "parameters": {
+      "properties": {
+        "nodes": {
+          "items": {
+            "type": "STRING"
+          },
+          "type": "ARRAY"
+        }
+      },
+      "required": [
+        "nodes"
+      ],
+      "type": "OBJECT"
+    }
+  }
+]

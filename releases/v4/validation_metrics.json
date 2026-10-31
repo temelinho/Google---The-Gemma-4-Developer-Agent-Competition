@@ -1,0 +1,86 @@
+[
+  {
+    "id": "fastapi_15661",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 48,
+    "duration_seconds": 240.011291
+  },
+  {
+    "id": "requests_7505",
+    "resolved": false,
+    "test_exit_code": 1,
+    "tool_calls": 48,
+    "duration_seconds": 235.999321
+  },
+  {
+    "id": "requests_7427",
+    "resolved": false,
+    "test_exit_code": 1,
+    "tool_calls": 46,
+    "duration_seconds": 258.422799
+  },
+  {
+    "id": "fastapi_14512",
+    "resolved": false,
+    "test_exit_code": -1,
+    "tool_calls": 48,
+    "duration_seconds": 197.251706
+  },
+  {
+    "id": "fastapi_11355",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 48,
+    "duration_seconds": 218.406527
+  },
+  {
+    "id": "rich_3894",
+    "resolved": false,
+    "test_exit_code": 1,
+    "tool_calls": 48,
+    "duration_seconds": 259.513314
+  },
+  {
+    "id": "httpx_3672",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 48,
+    "duration_seconds": 257.555028
+  },
+  {
+    "id": "fastapi_14953",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 48,
+    "duration_seconds": 139.466585
+  },
+  {
+    "id": "requests_6757",
+    "resolved": false,
+    "test_exit_code": 1,
+    "tool_calls": 48,
+    "duration_seconds": 300.570702
+  },
+  {
+    "id": "rich_3772",
+    "resolved": false,
+    "test_exit_code": 124,
+    "tool_calls": 18,
+    "duration_seconds": 558.507969
+  },
+  {
+    "id": "rich_3535",
+    "resolved": false,
+    "test_exit_code": -1,
+    "tool_calls": 20,
+    "duration_seconds": 257.164943
+  },
+  {
+    "id": "rich_3278",
+    "resolved": false,
+    "test_exit_code": -1,
+    "tool_calls": 48,
+    "duration_seconds": 256.989802
+  }
+]

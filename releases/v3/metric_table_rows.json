@@ -1,0 +1,15 @@
+[
+  "\n      \n      id\n      resolved\n      test_exit_code\n      tool_calls\n      duration_seconds\n      repo\n    ",
+  "\n      0\n      fastapi_15661\n      False\n      -1\n      20\n      263.693405\n      fastapi\n    ",
+  "\n      1\n      requests_7505\n      False\n      1\n      24\n      332.095495\n      requests\n    ",
+  "\n      2\n      requests_7427\n      False\n      1\n      32\n      259.632496\n      requests\n    ",
+  "\n      3\n      fastapi_14512\n      False\n      2\n      32\n      262.495701\n      fastapi\n    ",
+  "\n      4\n      fastapi_11355\n      False\n      2\n      31\n      264.030205\n      fastapi\n    ",
+  "\n      5\n      rich_3894\n      True\n      0\n      13\n      105.437238\n      rich\n    ",
+  "\n      6\n      httpx_3672\n      False\n      2\n      22\n      257.686269\n      httpx\n    ",
+  "\n      7\n      fastapi_14953\n      False\n      2\n      32\n      266.883017\n      fastapi\n    ",
+  "\n      8\n      requests_6757\n      False\n      -1\n      31\n      257.174579\n      requests\n    ",
+  "\n      9\n      rich_3772\n      False\n      124\n      16\n      485.122722\n      rich\n    ",
+  "\n      10\n      rich_3535\n      False\n      1\n      30\n      237.533954\n      rich\n    ",
+  "\n      11\n      rich_3278\n      True\n      0\n      14\n      244.333537\n      rich\n    "
+]

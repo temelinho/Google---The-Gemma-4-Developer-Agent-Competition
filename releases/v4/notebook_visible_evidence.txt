@@ -1,0 +1,228 @@
+- navigation "Main Kaggle page navigation":
+  - button "Navigation menu": menu
+  - link "Skip to content":
+    - /url: "#site-content"
+    - text: Skip to
+    - text: content
+  - link "Return to Kaggle home page":
+    - /url: /
+  - button "Create on Kaggle":
+    - paragraph: Create
+  - list:
+    - listitem "Home List Item":
+      - link "Home":
+        - /url: /
+        - paragraph: Home
+    - listitem "Competitions List Item":
+      - link "Competitions":
+        - /url: /competitions
+        - paragraph: Competitions
+    - listitem "Benchmarks List Item":
+      - link "Benchmarks":
+        - /url: /benchmarks
+        - paragraph: Benchmarks
+    - listitem "Arenas List Item":
+      - link "Arenas":
+        - /url: /arenas
+        - paragraph: Arenas
+    - listitem "Game Arena List Item":
+      - link "Game Arena":
+        - /url: /game-arena
+        - paragraph: Game Arena
+  - list:
+    - listitem "Data Hub List Item":
+      - link "Data Hub":
+        - /url: "#"
+        - paragraph: Data Hub
+      - button "Expand"
+  - list:
+    - listitem "More on Kaggle List Item":
+      - link "More on Kaggle":
+        - /url: "#"
+        - paragraph: More
+      - button "Expand"
+  - separator
+  - list:
+    - listitem "Your Work List Item":
+      - link "Your Work":
+        - /url: /work
+        - paragraph: Your Work
+      - button "Collapse Your Work" [expanded]
+    - listitem "Collapse Viewed List Item":
+      - link "Collapse Viewed" [expanded]:
+        - /url: "#"
+        - paragraph: Viewed
+      - button "Collapse Viewed"
+    - list:
+      - listitem "Google - The Gemma 4 Developer Agent Competition List Item":
+        - link "Google - The Gemma 4 Developer Agent Competition":
+          - /url: /competitions/gemma-4-developer-agent
+          - paragraph: Google - The Gemma 4 Developer Agent Competition
+      - listitem "Gemma Evidence Coder V4 - Validation List Item":
+        - link "Gemma Evidence Coder V4 - Validation":
+          - /url: /code/muhammettemel/gemma-evidence-coder-v4-validation
+          - paragraph: Gemma Evidence Coder V4 - Validation
+      - listitem "Gemma Evidence Coder V5 - Diagnostic List Item":
+        - link "Gemma Evidence Coder V5 - Diagnostic":
+          - /url: /code/muhammettemel/gemma-evidence-coder-v5-diagnostic
+          - paragraph: Gemma Evidence Coder V5 - Diagnostic
+      - listitem "Gemma Evidence Coder V3 - Validation List Item":
+        - link "Gemma Evidence Coder V3 - Validation":
+          - /url: /code/muhammettemel/gemma-evidence-coder-v3-validation
+          - paragraph: Gemma Evidence Coder V3 - Validation
+      - listitem "Getting Started - Gemma 4 Developer Agent List Item":
+        - link "Getting Started - Gemma 4 Developer Agent":
+          - /url: /code/ryanholbrook/getting-started-gemma-4-developer-agent
+          - paragraph: Getting Started - Gemma 4 Developer Agent
+    - listitem "Collapse Edited List Item":
+      - link "Collapse Edited" [expanded]:
+        - /url: "#"
+        - paragraph: Edited
+      - button "Collapse Edited"
+    - list:
+      - listitem "Gemma Evidence Coder V5 - Diagnostic List Item":
+        - link "Gemma Evidence Coder V5 - Diagnostic":
+          - /url: /code/muhammettemel/gemma-evidence-coder-v5-diagnostic
+          - paragraph: Gemma Evidence Coder V5 - Diagnostic
+      - listitem "Gemma Evidence Coder V4 - Validation List Item":
+        - link "Gemma Evidence Coder V4 - Validation":
+          - /url: /code/muhammettemel/gemma-evidence-coder-v4-validation
+          - paragraph: Gemma Evidence Coder V4 - Validation
+      - listitem "Gemma Evidence Coder V3 - Validation List Item":
+        - link "Gemma Evidence Coder V3 - Validation":
+          - /url: /code/muhammettemel/gemma-evidence-coder-v3-validation
+          - paragraph: Gemma Evidence Coder V3 - Validation
+      - listitem "Gemma Public Reference Control List Item":
+        - link "Gemma Public Reference Control":
+          - /url: /code/muhammettemel/gemma-public-reference-control
+          - paragraph: Gemma Public Reference Control
+      - listitem "CatBoost first model List Item":
+        - link "CatBoost first model":
+          - /url: /code/muhammettemel/catboost-first-model
+          - paragraph: CatBoost first model
+  - button "Open Active Events dialog 1 View Active Events":
+    - generic "Open Active Events dialog": auto_awesome_motion
+    - generic: "1"
+    - paragraph: View Active Events
+- navigation "Main menu, search and your account":
+  - textbox "Search"
+  - button "Muhammet Temel":
+    - generic "Muhammet Temel"
+- main:
+  - link "Muhammet Temel's profile":
+    - /url: /muhammettemel
+    - generic "Muhammet Temel"
+  - generic: Muhammet Temel
+  - generic: · 1h ago · 2 views · Private
+  - heading "Gemma Evidence Coder V4 - Validation" [level=1]
+  - button "Edit title": edit
+  - link "[object Object] opens in new window":
+    - /url: /code/ryanholbrook/getting-started-gemma-4-developer-agent
+    - paragraph:
+      - text: Copied from Ryan Holbrook (
+      - generic: "+48"
+      - text: ","
+      - generic: "-34"
+      - text: )
+  - heading "Gemma Evidence Coder V4 - Validation" [level=2]
+  - button "Upvote":
+    - generic: arrow_drop_up
+  - button "0 votes": "0"
+  - button "Share":
+    - generic: lock
+    - generic: Share
+  - link "Edit":
+    - /url: /code/muhammettemel/gemma-evidence-coder-v4-validation/edit/run/363440630
+    - button "Edit":
+      - generic: edit
+      - generic: Edit
+  - button "Download":
+    - generic: file_download
+    - generic: Download
+  - button "More options for this notebook": more_vert
+  - tablist:
+    - tab "Notebook, 1 of 6" [selected]:
+      - generic: Notebook
+    - tab "Input, 2 of 6":
+      - generic: Input
+    - tab "Output, 3 of 6":
+      - generic: Output
+    - tab "Logs, 4 of 6":
+      - generic: Logs
+    - tab "Comments (0), 5 of 6":
+      - generic: Comments (0)
+    - tab "Settings, 6 of 6":
+      - generic: Settings
+  - separator
+  - button "Version 1 of 1":
+    - generic: history
+    - generic: Version 1 of 1
+  - button "Collapse Sidebar"
+  - heading "Runtime" [level=2]
+  - generic: play_arrow
+  - paragraph: 58m 45s · GPU L4 x4
+  - button "Go to input tab": Input
+  - generic: Competitions
+  - paragraph: Google - The Gemma 4 Developer Agent Competition
+  - generic: Datasets
+  - paragraph: Gemma 4 Developer Agent Wheelhouse
+  - generic: Models
+  - paragraph: Gemma 4 · gemma-4 · V2
+  - paragraph: Gemma 4 · gemma-4 · V2
+  - paragraph: Gemma 4 · gemma-4 · V2
+  - paragraph: Gemma 4 · gemma-4 · V2
+  - heading "Tags" [level=2]
+  - group "Tags":
+    - link "GPU opens in new window":
+      - /url: /code?tagIds=16580-GPU
+      - generic: GPU
+    - button "Edit Tags": edit
+  - heading "Language" [level=2]
+  - paragraph: Python
+  - heading "Table of Contents" [level=2]
+  - tablist:
+    - tab "Gemma Evidence Coder V4 — development validation, 1 of 7":
+      - generic: Gemma Evidence Coder V4 — development validation
+    - tab "1. Environment Configuration and Package Installation, 2 of 7":
+      - generic: 1. Environment Configuration and Package Installation
+    - tab "2. Competition Dataset and Sample Submission, 3 of 7":
+      - generic: 2. Competition Dataset and Sample Submission
+    - tab "3. Code Graph Functions, 4 of 7":
+      - generic: 3. Code Graph Functions
+    - tab "4. Start vLLM Server, 5 of 7":
+      - generic: 4. Start vLLM Server
+    - tab "5. Run Phase 1 Inference and Phase 2 Verification, 6 of 7" [selected]:
+      - generic: 5. Run Phase 1 Inference and Phase 2 Verification
+    - tab "6. Package Submission Archive, 7 of 7":
+      - generic: 6. Package Submission Archive
+  - img "Profile picture for undefined"
+  - generic: Competition Notebook
+  - paragraph:
+    - link "Google - The Gemma 4 Developer Agent Competition opens in new window":
+      - /url: /competitions/gemma-4-developer-agent
+      - text: Google - The Gemma 4 Developer Agent Competition
+  - iframe [id="rendered-kernel-content"]
+  - separator
+  - heading "Continue exploring" [level=2]
+  - list:
+    - listitem "Input List Item":
+      - link "Input":
+        - generic: input
+        - generic: Input
+        - generic: 6 files
+    - listitem "Output List Item":
+      - link "Output":
+        - generic: output
+        - generic: Output
+        - generic: 51 files
+    - listitem "Logs List Item":
+      - link "Logs":
+        - generic: list_alt
+        - generic: Logs
+        - generic: 3525.4 second run - successful
+    - listitem "Comments List Item":
+      - link "Comments":
+        - generic: comment
+        - generic: Comments
+        - generic: 0 comments
+- alert

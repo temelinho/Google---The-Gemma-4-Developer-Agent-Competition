@@ -1,0 +1,8 @@
+[
+  "\n      \n      id\n      resolved\n      test_exit_code\n      tool_calls\n      duration_seconds\n      repo\n    ",
+  "\n      0\n      fastapi_15661\n      False\n      2\n      35\n      264.771889\n      fastapi\n    ",
+  "\n      1\n      rich_3894\n      True\n      0\n      13\n      99.546067\n      rich\n    ",
+  "\n      2\n      rich_3772\n      False\n      2\n      31\n      259.910855\n      rich\n    ",
+  "\n      3\n      rich_3535\n      False\n      1\n      29\n      216.408981\n      rich\n    ",
+  "\n      4\n      rich_3278\n      False\n      -1\n      27\n      257.854838\n      rich\n    "
+]

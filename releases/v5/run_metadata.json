@@ -1,0 +1,14 @@
+{
+  "notebook_url": "https://www.kaggle.com/code/muhammettemel/gemma-evidence-coder-v5-diagnostic",
+  "script_version_id": 363442507,
+  "visibility": "private",
+  "execution": "Save & Run All (Commit)",
+  "accelerator": "GPU L4 x4",
+  "candidate_sha256": "f2fdf3e5726a4cb42a24c3d82aa0358081b6ac2aede779ef9e57d547bc16994f",
+  "status_at_recording": "completed",
+  "competition_final_submit_clicked": false,
+  "scope": "Five tasks with passing public-reference verification controls; selected diagnostic, not a hidden score.",
+  "completed_tasks": 5,
+  "resolved_tasks": 1,
+  "source_hash_verified_in_runtime": true
+}

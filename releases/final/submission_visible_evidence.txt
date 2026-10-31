@@ -1,0 +1,195 @@
+- navigation:
+  - button: menu
+  - link:
+    - /url: "#site-content"
+    - text: Skip to content
+  - link:
+    - /url: /
+  - button:
+    - paragraph: Create
+  - textbox:
+    - /placeholder: Search
+  - list:
+    - link:
+      - /url: /
+      - paragraph: Home
+    - link:
+      - /url: /competitions
+      - paragraph: Competitions
+    - link:
+      - /url: /benchmarks
+      - paragraph: Benchmarks
+    - link:
+      - /url: /arenas
+      - paragraph: Arenas
+    - link:
+      - /url: /game-arena
+      - paragraph: Game Arena
+  - list:
+    - link:
+      - /url: "#"
+      - paragraph: Data Hub
+    - button
+  - list:
+    - link:
+      - /url: "#"
+      - paragraph: More
+    - button
+  - separator
+  - list:
+    - link:
+      - /url: /work
+      - paragraph: Your Work
+    - button [expanded]
+    - link [expanded]:
+      - /url: "#"
+      - paragraph: Viewed
+    - button
+    - list:
+      - link:
+        - /url: /competitions/gemma-4-developer-agent
+        - paragraph: Google - The Gemma 4 Developer Agent Competition
+      - link:
+        - /url: /code/muhammettemel/gemma-evidence-coder-v5-diagnostic
+        - paragraph: Gemma Evidence Coder V5 - Diagnostic
+      - link:
+        - /url: /code/muhammettemel/gemma-evidence-coder-v4-validation
+        - paragraph: Gemma Evidence Coder V4 - Validation
+      - link:
+        - /url: /code/muhammettemel/gemma-evidence-coder-v3-validation
+        - paragraph: Gemma Evidence Coder V3 - Validation
+      - link:
+        - /url: /code/ryanholbrook/getting-started-gemma-4-developer-agent
+        - paragraph: Getting Started - Gemma 4 Developer Agent
+    - link [expanded]:
+      - /url: "#"
+      - paragraph: Edited
+    - button
+    - list:
+      - link:
+        - /url: /code/muhammettemel/gemma-evidence-coder-v5-diagnostic
+        - paragraph: Gemma Evidence Coder V5 - Diagnostic
+      - link:
+        - /url: /code/muhammettemel/gemma-evidence-coder-v4-validation
+        - paragraph: Gemma Evidence Coder V4 - Validation
+      - link:
+        - /url: /code/muhammettemel/gemma-evidence-coder-v3-validation
+        - paragraph: Gemma Evidence Coder V3 - Validation
+      - link:
+        - /url: /code/muhammettemel/gemma-public-reference-control
+        - paragraph: Gemma Public Reference Control
+      - link:
+        - /url: /code/muhammettemel/catboost-first-model
+        - paragraph: CatBoost first model
+  - button:
+    - generic: update
+    - generic: "2"
+    - paragraph: View Active Events
+- navigation:
+  - button: menu
+  - link:
+    - /url: "#site-content"
+    - text: Skip to content
+  - link:
+    - /url: /
+  - button:
+- main:
+  - link:
+    - /url: /organizations/deepmind
+  - generic: Google DeepMind
+  - generic: · Featured Prediction Competition · a month to go
+  - heading [level=1]: Google - The Gemma 4 Developer Agent Competition
+  - paragraph: Accelerate research in autonomous coding agents
+  - heading [level=2]: Google - The Gemma 4 Developer Agent Competition
+  - button:
+    - generic: Submit Prediction
+  - button: more_horiz
+  - tablist:
+    - tab:
+      - generic: Overview
+    - tab:
+      - generic: Data
+    - tab:
+      - generic: Code
+    - tab:
+      - generic: Models
+    - tab:
+      - generic: Discussion
+    - tab:
+      - generic: Leaderboard
+    - tab:
+      - generic: Rules
+    - tab:
+      - generic: Team
+    - tab [selected]:
+      - generic: Submissions
+  - separator
+  - heading [level=2]: Submissions
+  - paragraph:
+    - text: Select up to 2 submissions that will count towards your final leaderboard score. If less than 2 are selected, Kaggle will automatically select from your best scoring submissions.
+    - link:
+      - /url: /docs/competitions#submitting-predictions
+      - text: Learn More
+  - paragraph: Auto-selection candidates
+  - generic: help
+  - heading [level=6]: 0/2
+  - checkbox [checked]:
+    - generic: All
+  - checkbox:
+    - generic: Successful
+  - checkbox:
+    - generic: Selected
+  - checkbox:
+    - generic: Errors
+  - combobox:
+    - generic: Recent
+  - textbox: Recent
+  - separator
+  - paragraph: Submission and Description
+  - paragraph: Public Score
+  - generic: info
+  - paragraph: Select
+  - separator
+  - list:
+    - link [active]:
+      - /url: "#"
+      - progressbar:
+      - generic: submission.zip
+      - generic: Notebook Running · Muhammet Temel · 1m ago · Evidence Coder V3 | Gemma 4 31B QAT | bounded repair workflow, assertion checks, loop prevention, Python repair skill | 255s/task, 32 calls, thinking 1024 | compiler + Kaggle runtime checked | SHA256 0c65307d3674 | no LoRA
+    - separator
+    - link:
+      - /url: "#"
+      - generic: warning
+      - generic: submission.zip
+      - generic: Notebook Timeout · Muhammet Temel · 20d ago · v1 - alt-ajan (code_analyzer), LoRA yok
+    - separator
+    - link:
+      - /url: "#"
+      - generic: warning
+      - generic: submission.zip
+      - generic: Kaggle Error · Muhammet Temel · 22d ago · ilk
+    - separator
+- alert
+- button "Close"
+- heading "Submission Details" [level=2]
+- separator
+- progressbar "Loading":
+- paragraph: submission.zip
+- paragraph: Notebook Running · Muhammet Temel · 1m ago
+- generic: Uploaded files
+- generic: drive_zip
+- paragraph: submission.zip
+- button "download submission.zip": file_download
+- generic: Description
+- textbox "Description":
+  - /placeholder: Enter a description
+  - text: Evidence Coder V3 | Gemma 4 31B QAT | bounded repair workflow, assertion checks, loop prevention, Python repair skill | 255s/task, 32 calls, thinking 1024 | compiler + Kaggle runtime checked | SHA256 0c65307d3674 | no LoRA
+- generic: Description
+- paragraph:
+  - alert:
+    - generic: 222 / 500
+- separator
+- button "Cancel":
+  - generic: Cancel
+- button "Save" [disabled]:
+  - generic: Save

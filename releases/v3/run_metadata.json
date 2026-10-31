@@ -1,0 +1,17 @@
+{
+  "notebook_url": "https://www.kaggle.com/code/muhammettemel/gemma-evidence-coder-v3-validation",
+  "script_version_id": 363373646,
+  "visibility": "private",
+  "execution": "Save & Run All (Commit)",
+  "accelerator": "GPU L4 x4",
+  "candidate_sha256": "0c65307d36740d1ea96b935416d99129b3b9ea109b3c2a5a15e641214ac81d95",
+  "source_hash_verified_in_runtime": true,
+  "status_at_recording": "completed_12_tasks_2_resolved",
+  "submission_uploaded_to_competition_form": true,
+  "competition_final_submit_clicked": true,
+  "notes": "V2 was stopped after three completed tasks due to repeated checks. V3 is a fresh standalone 12-task run, not a completed paired 12-task comparison.",
+  "completed_tasks": 12,
+  "resolved_tasks": 2,
+  "competition_upload_verified": true,
+  "competition_status": "Notebook Running"
+}

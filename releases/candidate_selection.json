@@ -1,0 +1,37 @@
+{
+  "rule": "Most resolved on the same five reference-passing tasks, then least elapsed time on those five.",
+  "selected": "v3",
+  "ranking": [
+    {
+      "candidate": "v3",
+      "matched_tasks": 5,
+      "matched_resolved": 2,
+      "matched_seconds": 1336.1208562409993,
+      "full_run_completed_tasks": 12,
+      "full_run_resolved": 2,
+      "archive_sha256": "0c65307d36740d1ea96b935416d99129b3b9ea109b3c2a5a15e641214ac81d95",
+      "archive_path": "C:\\Users\\temel\\OneDrive\\Masa\u00fcst\u00fc\\Gemma\\Google---The-Gemma-4-Developer-Agent-Competition\\releases\\v3\\submission.zip"
+    },
+    {
+      "candidate": "v5",
+      "matched_tasks": 5,
+      "matched_resolved": 1,
+      "matched_seconds": 1098.49263,
+      "full_run_completed_tasks": 5,
+      "full_run_resolved": 1,
+      "archive_sha256": "f2fdf3e5726a4cb42a24c3d82aa0358081b6ac2aede779ef9e57d547bc16994f",
+      "archive_path": "C:\\Users\\temel\\OneDrive\\Masa\u00fcst\u00fc\\Gemma\\Google---The-Gemma-4-Developer-Agent-Competition\\releases\\v5\\submission.zip"
+    },
+    {
+      "candidate": "v4",
+      "matched_tasks": 5,
+      "matched_resolved": 0,
+      "matched_seconds": 1572.187319,
+      "full_run_completed_tasks": 12,
+      "full_run_resolved": 0,
+      "archive_sha256": "6eb13eee267e0a3218da1cdef5c00a322b75ba050bca6c6772cc4c74208c40c7",
+      "archive_path": "C:\\Users\\temel\\OneDrive\\Masa\u00fcst\u00fc\\Gemma\\Google---The-Gemma-4-Developer-Agent-Competition\\releases\\v4\\submission.zip"
+    }
+  ],
+  "limitation": "Selected public development diagnostic; not a hidden score, representative sample, statistical proof or rank guarantee."
+}

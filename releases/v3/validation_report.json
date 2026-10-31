@@ -1,0 +1,74 @@
+{
+  "compiler": "0.2.13",
+  "google_adk": "1.36.1",
+  "model": "gemma-4-31b-it-qat-w4a16-ct",
+  "evaluation": {
+    "timeout_seconds": 60,
+    "max_tool_calls": 32,
+    "max_time_minutes": 4.25,
+    "max_turns": 64
+  },
+  "archive_sha256": "0c65307d36740d1ea96b935416d99129b3b9ea109b3c2a5a15e641214ac81d95",
+  "archive_bytes": 6741,
+  "unpacked_bytes": 12413,
+  "files": [
+    {
+      "path": "agent.yaml",
+      "bytes": 485,
+      "sha256": "e7d4915645f92aa586d019c7be2061a16205aecc4b48f9c54547a86281adcc9b"
+    },
+    {
+      "path": "configs/sampling.yaml",
+      "bytes": 134,
+      "sha256": "271741ace8c24270c49f4fedeacb63dde4d1d9eb136d448629d2e03252e37287"
+    },
+    {
+      "path": "eval_config.yaml",
+      "bytes": 304,
+      "sha256": "40747d4f7239cff10407ebdeefb1e91df3628e3e9c7afb94f9ed5a25917f8944"
+    },
+    {
+      "path": "prompts/system.md",
+      "bytes": 7623,
+      "sha256": "f4e7ba1b571a2f97a6a5ff313c8377eeb3c444a6e13d4203d54ef22e4a9b6002"
+    },
+    {
+      "path": "skills/python-repair/resources/semantics.md",
+      "bytes": 3004,
+      "sha256": "fd74e9a0941d799d7dc8cda0052bef9f2dfa3d14789034bbbd3191a91f4ba213"
+    },
+    {
+      "path": "skills/python-repair/SKILL.md",
+      "bytes": 863,
+      "sha256": "8fd85f1a2634b69e160fb8cf7ce1c5953ebb7afd1fad84e55635b2fd868af15e"
+    }
+  ],
+  "workspace_tool_names": [
+    "run_command",
+    "read_file",
+    "edit_file",
+    "write_file",
+    "get_status",
+    "submit_patch",
+    "get_code_neighbors",
+    "search_similar_code",
+    "get_code_subgraph"
+  ],
+  "skill_tool_names": [
+    "list_skills",
+    "load_skill",
+    "load_skill_resource",
+    "run_skill_script"
+  ],
+  "negative_archive_checks": [
+    "nested_root",
+    "traversal",
+    "binary_extension"
+  ],
+  "directory_validation": "passed",
+  "official_compilation": "passed",
+  "extracted_archive_compilation": "passed",
+  "live_model_inference": "not_run_no_local_cuda",
+  "resolution_rate": null,
+  "leaderboard_score": null
+}

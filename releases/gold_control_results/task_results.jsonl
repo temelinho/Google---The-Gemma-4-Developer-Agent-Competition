@@ -1,0 +1,12 @@
+{"instance_id": "fastapi_15661", "repo": "fastapi/fastapi", "resolved": true, "agent_patch_size": 6966, "test_exit_code": 0, "duration_seconds": 7.41, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "requests_7505", "repo": "psf/requests", "resolved": false, "agent_patch_size": 2341, "test_exit_code": 1, "duration_seconds": 75.18, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "requests_7427", "repo": "psf/requests", "resolved": false, "agent_patch_size": 685, "test_exit_code": 1, "duration_seconds": 2.8, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "fastapi_14512", "repo": "fastapi/fastapi", "resolved": false, "agent_patch_size": 2723, "test_exit_code": 2, "duration_seconds": 5.67, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "fastapi_11355", "repo": "fastapi/fastapi", "resolved": false, "agent_patch_size": 1175, "test_exit_code": 2, "duration_seconds": 5.47, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "rich_3894", "repo": "Textualize/rich", "resolved": true, "agent_patch_size": 549, "test_exit_code": 0, "duration_seconds": 3.36, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "httpx_3672", "repo": "encode/httpx", "resolved": false, "agent_patch_size": 9385, "test_exit_code": 2, "duration_seconds": 1.94, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "fastapi_14953", "repo": "fastapi/fastapi", "resolved": false, "agent_patch_size": 4315, "test_exit_code": 2, "duration_seconds": 6.24, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "requests_6757", "repo": "psf/requests", "resolved": false, "agent_patch_size": 1103, "test_exit_code": 1, "duration_seconds": 74.74, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "rich_3772", "repo": "Textualize/rich", "resolved": true, "agent_patch_size": 3664, "test_exit_code": 0, "duration_seconds": 5.83, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "rich_3535", "repo": "Textualize/rich", "resolved": true, "agent_patch_size": 1001, "test_exit_code": 0, "duration_seconds": 3.75, "error": null, "tool_calls": 0, "total_llm_calls": 0}
+{"instance_id": "rich_3278", "repo": "Textualize/rich", "resolved": true, "agent_patch_size": 176, "test_exit_code": 0, "duration_seconds": 3.43, "error": null, "tool_calls": 0, "total_llm_calls": 0}

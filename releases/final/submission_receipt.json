@@ -1,0 +1,12 @@
+{
+  "prepared_at_utc": "2026-10-29T10:10:22.009799+00:00",
+  "selected_candidate": "v3",
+  "archive_sha256": "0c65307d36740d1ea96b935416d99129b3b9ea109b3c2a5a15e641214ac81d95",
+  "competition_url": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
+  "final_submit_verified": true,
+  "leaderboard_score": null,
+  "verified_at_utc": "2026-10-29T10:07:08.531Z",
+  "kaggle_status": "Notebook Running",
+  "description": "Evidence Coder V3 | Gemma 4 31B QAT | bounded repair workflow, assertion checks, loop prevention, Python repair skill | 255s/task, 32 calls, thinking 1024 | compiler + Kaggle runtime checked | SHA256 0c65307d3674 | no LoRA",
+  "submission_page": "https://www.kaggle.com/competitions/gemma-4-developer-agent/submissions"
+}

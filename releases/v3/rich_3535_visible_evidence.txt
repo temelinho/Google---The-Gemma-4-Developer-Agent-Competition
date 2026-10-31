@@ -1,0 +1,256 @@
+- navigation "Main Kaggle page navigation":
+  - button "Navigation menu": menu
+  - link "Skip to content":
+    - /url: "#site-content"
+    - text: Skip to
+    - text: content
+  - link "Return to Kaggle home page":
+    - /url: /
+  - button "Create on Kaggle":
+    - paragraph: Create
+  - list:
+    - listitem "Home List Item":
+      - link "Home":
+        - /url: /
+        - paragraph: Home
+    - listitem "Competitions List Item":
+      - link "Competitions":
+        - /url: /competitions
+        - paragraph: Competitions
+    - listitem "Benchmarks List Item":
+      - link "Benchmarks":
+        - /url: /benchmarks
+        - paragraph: Benchmarks
+    - listitem "Arenas List Item":
+      - link "Arenas":
+        - /url: /arenas
+        - paragraph: Arenas
+    - listitem "Game Arena List Item":
+      - link "Game Arena":
+        - /url: /game-arena
+        - paragraph: Game Arena
+  - list:
+    - listitem "Data Hub List Item":
+      - link "Data Hub":
+        - /url: "#"
+        - paragraph: Data Hub
+      - button "Expand"
+  - list:
+    - listitem "More on Kaggle List Item":
+      - link "More on Kaggle":
+        - /url: "#"
+        - paragraph: More
+      - button "Expand"
+  - separator
+  - list:
+    - listitem "Your Work List Item":
+      - link "Your Work":
+        - /url: /work
+        - paragraph: Your Work
+      - button "Collapse Your Work" [expanded]
+    - listitem "Collapse Viewed List Item":
+      - link "Collapse Viewed" [expanded]:
+        - /url: "#"
+        - paragraph: Viewed
+      - button "Collapse Viewed"
+    - list:
+      - listitem "Google - The Gemma 4 Developer Agent Competition List Item":
+        - link "Google - The Gemma 4 Developer Agent Competition":
+          - /url: /competitions/gemma-4-developer-agent
+          - paragraph: Google - The Gemma 4 Developer Agent Competition
+      - listitem "Gemma Evidence Coder V3 - Validation List Item":
+        - link "Gemma Evidence Coder V3 - Validation":
+          - /url: /code/muhammettemel/gemma-evidence-coder-v3-validation
+          - paragraph: Gemma Evidence Coder V3 - Validation
+      - listitem "Getting Started - Gemma 4 Developer Agent List Item":
+        - link "Getting Started - Gemma 4 Developer Agent":
+          - /url: /code/ryanholbrook/getting-started-gemma-4-developer-agent
+          - paragraph: Getting Started - Gemma 4 Developer Agent
+      - listitem "Gemma and the Shape of Doubt List Item":
+        - link "Gemma and the Shape of Doubt":
+          - /url: /code/prvsiyan/gemma-and-the-shape-of-doubt
+          - paragraph: Gemma and the Shape of Doubt
+      - listitem "Gemma 4 Developer Agent Wheelhouse List Item":
+        - link "Gemma 4 Developer Agent Wheelhouse":
+          - /url: /datasets/metric/gemma-4-developer-agent-wheelhouse
+          - paragraph: Gemma 4 Developer Agent Wheelhouse
+    - listitem "Collapse Edited List Item":
+      - link "Collapse Edited" [expanded]:
+        - /url: "#"
+        - paragraph: Edited
+      - button "Collapse Edited"
+    - list:
+      - listitem "Gemma Public Reference Control List Item":
+        - link "Gemma Public Reference Control":
+          - /url: /code/muhammettemel/gemma-public-reference-control
+          - paragraph: Gemma Public Reference Control
+      - listitem "Gemma Evidence Coder V4 - Validation List Item":
+        - link "Gemma Evidence Coder V4 - Validation":
+          - /url: /code/muhammettemel/gemma-evidence-coder-v4-validation
+          - paragraph: Gemma Evidence Coder V4 - Validation
+      - listitem "Gemma Evidence Coder V3 - Validation List Item":
+        - link "Gemma Evidence Coder V3 - Validation":
+          - /url: /code/muhammettemel/gemma-evidence-coder-v3-validation
+          - paragraph: Gemma Evidence Coder V3 - Validation
+      - listitem "CatBoost first model List Item":
+        - link "CatBoost first model":
+          - /url: /code/muhammettemel/catboost-first-model
+          - paragraph: CatBoost first model
+      - listitem "DATATHON'26 Work List Item":
+        - link "DATATHON'26 Work":
+          - /url: /code/muhammettemel/datathon-26-work
+          - paragraph: DATATHON'26 Work
+  - button "Event running 1 View Active Events":
+    - generic "Event running": update
+    - generic: "1"
+    - paragraph: View Active Events
+- navigation "Main menu, search and your account":
+  - textbox "Search"
+  - button "Muhammet Temel":
+    - generic "Muhammet Temel"
+- main:
+  - generic: Kaggle uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.
+  - link "Learn more":
+    - /url: /cookies
+    - generic: Learn more
+  - generic: OK, Got it.
+  - link "Muhammet Temel's profile":
+    - /url: /muhammettemel
+    - generic "Muhammet Temel"
+  - generic: Muhammet Temel
+  - generic: · 5h ago · 2 views · Private
+  - heading "Gemma Evidence Coder V3 - Validation" [level=1]
+  - button "Edit title": edit
+  - link "[object Object] opens in new window":
+    - /url: /code/ryanholbrook/getting-started-gemma-4-developer-agent
+    - paragraph:
+      - text: Copied from Ryan Holbrook (
+      - generic: "+49"
+      - text: ","
+      - generic: "-35"
+      - text: )
+  - heading "Gemma Evidence Coder V3 - Validation" [level=2]
+  - button "Upvote":
+    - generic: arrow_drop_up
+  - button "0 votes": "0"
+  - button "Share":
+    - generic: lock
+    - generic: Share
+  - link "Edit":
+    - /url: /code/muhammettemel/gemma-evidence-coder-v3-validation/edit/run/363373646
+    - button "Edit":
+      - generic: edit
+      - generic: Edit
+  - button "Download":
+    - generic: file_download
+    - generic: Download
+  - button "More options for this notebook": more_vert
+  - tablist:
+    - tab "Notebook, 1 of 6":
+      - generic: Notebook
+    - tab "Input, 2 of 6":
+      - generic: Input
+    - tab "Output, 3 of 6" [selected]:
+      - generic: Output
+    - tab "Logs, 4 of 6":
+      - generic: Logs
+    - tab "Comments (0), 5 of 6":
+      - generic: Comments (0)
+    - tab "Settings, 6 of 6":
+      - generic: Settings
+  - separator
+  - heading "Output Data" [level=2]
+  - button "Back to test_outputs"
+  - heading "rich_3535.log(1.13 kB)" [level=4]:
+    - text: rich_3535.log
+    - generic: (1.13 kB)
+  - button "Submit to Competition":
+    - generic: file_upload
+    - generic: Submit to Competition
+  - button "Download": get_app
+  - button "Hide tree"
+  - generic: "STDOUT: .......F [100%] =================================== FAILURES =================================== __________________________ test_is_single_cell_widths __________________________ def test_is_single_cell_widths() -> None: # Check _is_single_cell_widths reports correctly for character in string.printable: if ord(character) >= 32: assert _is_single_cell_widths(character) BOX = \"┌─┬┐│ ││├─┼┤│ ││├─┼┤├─┼┤│ ││└─┴┘\" for character in BOX: > assert _is_single_cell_widths(character) E AssertionError: assert None E + where None = _is_single_cell_widths('┌') tests/test_cells.py:75: AssertionError - generated xml file: /tmp/swegemma_sandbox_b9917f2d-412_0ooawe0i/tmp/_swegemma_junit_1cf900b0da1f.xml - =========================== short test summary info ============================ FAILED tests/test_cells.py::test_is_single_cell_widths - AssertionError: asse... 1 failed, 7 passed in 0.08s STDERR:"
+  - heading "Output" [level=2]
+  - button "Output actions": more_vert
+  - list:
+    - button "arrow_right":
+      - generic: arrow_right
+    - generic: folder
+    - paragraph: evidence_coder_v3
+    - button "arrow_drop_down":
+      - generic: arrow_drop_down
+    - generic: folder
+    - paragraph: results
+    - list:
+      - button "arrow_right":
+        - generic: arrow_right
+      - generic: folder
+      - paragraph: logs
+      - button "arrow_right":
+        - generic: arrow_right
+      - generic: folder
+      - paragraph: patches
+      - button "arrow_drop_down":
+        - generic: arrow_drop_down
+      - generic: folder
+      - paragraph: test_outputs
+      - list:
+        - generic "Expand fastapi_11355.log"
+        - generic: insert_drive_file
+        - paragraph: fastapi_11355.log
+        - generic "Expand fastapi_14512.log"
+        - generic: insert_drive_file
+        - paragraph: fastapi_14512.log
+        - generic "Expand fastapi_14953.log"
+        - generic: insert_drive_file
+        - paragraph: fastapi_14953.log
+        - generic "Expand httpx_3672.log"
+        - generic: insert_drive_file
+        - paragraph: httpx_3672.log
+        - generic "Expand requests_7427.log"
+        - generic: insert_drive_file
+        - paragraph: requests_7427.log
+        - generic "Expand requests_7505.log"
+        - generic: insert_drive_file
+        - paragraph: requests_7505.log
+        - generic "Expand rich_3278.log"
+        - generic: insert_drive_file
+        - paragraph: rich_3278.log
+        - generic "Collapse rich_3535.log"
+        - generic: insert_drive_file
+        - generic "rich_3535.log (1.13 kB)" [active]:
+          - paragraph: rich_3535.log
+        - generic "Expand rich_3772.log"
+        - generic: insert_drive_file
+        - paragraph: rich_3772.log
+        - generic "Expand rich_3894.log"
+        - generic: insert_drive_file
+        - paragraph: rich_3894.log
+      - button "arrow_right":
+        - generic: arrow_right
+      - generic: folder
+      - paragraph: traces
+      - generic "Expand summary.json"
+      - paragraph: summary.json
+      - generic "Expand task_results.jsonl"
+      - paragraph: task_results.jsonl
+    - generic "Expand submission.zip"
+    - generic: drive_zip
+    - paragraph: submission.zip
+    - generic "Expand validation_metrics.json"
+    - paragraph: validation_metrics.json
+    - generic "Expand validation_summary.json"
+    - paragraph: validation_summary.json
+  - code:
+    - generic: Download notebook output
+    - generic: navigate_next
+    - generic: minimize
+    - textbox "Download notebook output" [disabled]: kaggle kernels output muhammettemel/gemma-evidence-coder-v3-validation -p /path/to/dest
+    - button "Copy": content_copy
+    - button "View CLI documentation": help
+    - generic: Download notebook output
+    - paragraph:
+      - alert
+- alert
+- tooltip "rich_3535.log (1.13 kB)":
+  - paragraph: rich_3535.log (1.13 kB)

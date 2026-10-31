@@ -1,0 +1,8 @@
+{
+  "completed_tasks": 5,
+  "resolved_tasks": 1,
+  "resolution_rate": 0.2,
+  "source": "Complete rendered Kaggle table; duration values rounded to six decimals",
+  "candidate_sha256": "f2fdf3e5726a4cb42a24c3d82aa0358081b6ac2aede779ef9e57d547bc16994f",
+  "scope": "Public development diagnostic; not a hidden score or rank estimate"
+}

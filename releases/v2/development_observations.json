@@ -1,0 +1,18 @@
+{
+  "scope": "Observed development tasks; not leaderboard or hidden evaluation",
+  "candidate_sha256": "2304a6e5e817f13d2375791d82383fd0bd0bb87e92fc557ca7e7a8c95f6b266d",
+  "planned_tasks": 12,
+  "early_stop_requested": true,
+  "early_stop_reason": "An exploration-only timeout, followed by repeated identical check commands on two concrete tasks. Switch to a candidate designed to reduce these operational failures.",
+  "observed_completed_tasks": [
+    {"id":"fastapi_15661","resolved":false,"test_exit_code":-1,"patch_chars":0,"tool_calls":12,"duration_seconds":260.4},
+    {"id":"requests_7505","resolved":false,"test_exit_code":1,"patch_chars":1095,"tool_calls":40,"duration_seconds":301.1},
+    {"id":"requests_7427","resolved":false,"test_exit_code":1,"patch_chars":2539,"tool_calls":45,"duration_seconds":205.1}
+  ],
+  "test_failure_classification": "Not yet determined; exit status alone does not distinguish source defects from test-environment failures.",
+  "v3_hypotheses": [
+    "Reasoning retention and low nonzero temperature may reduce repeated tool calls.",
+    "Earlier status checks and explicit assertion-based stopping may reduce exploration-only timeouts.",
+    "A lower tool cap can limit repeated checks while leaving a recoverable source patch."
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "fastapi_15661",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 35,
+    "duration_seconds": 264.771889
+  },
+  {
+    "id": "rich_3894",
+    "resolved": true,
+    "test_exit_code": 0,
+    "tool_calls": 13,
+    "duration_seconds": 99.546067
+  },
+  {
+    "id": "rich_3772",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 31,
+    "duration_seconds": 259.910855
+  },
+  {
+    "id": "rich_3535",
+    "resolved": false,
+    "test_exit_code": 1,
+    "tool_calls": 29,
+    "duration_seconds": 216.408981
+  },
+  {
+    "id": "rich_3278",
+    "resolved": false,
+    "test_exit_code": -1,
+    "tool_calls": 27,
+    "duration_seconds": 257.854838
+  }
+]

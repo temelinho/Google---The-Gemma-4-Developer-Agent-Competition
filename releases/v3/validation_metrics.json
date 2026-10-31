@@ -1,0 +1,86 @@
+[
+  {
+    "id": "fastapi_15661",
+    "resolved": false,
+    "test_exit_code": -1,
+    "tool_calls": 20,
+    "duration_seconds": 263.693404968
+  },
+  {
+    "id": "requests_7505",
+    "resolved": false,
+    "test_exit_code": 1,
+    "tool_calls": 24,
+    "duration_seconds": 332.09549461899996
+  },
+  {
+    "id": "requests_7427",
+    "resolved": false,
+    "test_exit_code": 1,
+    "tool_calls": 32,
+    "duration_seconds": 259.632495674
+  },
+  {
+    "id": "fastapi_14512",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 32,
+    "duration_seconds": 262.49570121399984
+  },
+  {
+    "id": "fastapi_11355",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 31,
+    "duration_seconds": 264.0302053209998
+  },
+  {
+    "id": "rich_3894",
+    "resolved": true,
+    "test_exit_code": 0,
+    "tool_calls": 13,
+    "duration_seconds": 105.43723831299985
+  },
+  {
+    "id": "httpx_3672",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 22,
+    "duration_seconds": 257.68626944200014
+  },
+  {
+    "id": "fastapi_14953",
+    "resolved": false,
+    "test_exit_code": 2,
+    "tool_calls": 32,
+    "duration_seconds": 266.8830167690003
+  },
+  {
+    "id": "requests_6757",
+    "resolved": false,
+    "test_exit_code": -1,
+    "tool_calls": 31,
+    "duration_seconds": 257.174579471
+  },
+  {
+    "id": "rich_3772",
+    "resolved": false,
+    "test_exit_code": 124,
+    "tool_calls": 16,
+    "duration_seconds": 485.1227220410001
+  },
+  {
+    "id": "rich_3535",
+    "resolved": false,
+    "test_exit_code": 1,
+    "tool_calls": 30,
+    "duration_seconds": 237.53395419399976
+  },
+  {
+    "id": "rich_3278",
+    "resolved": true,
+    "test_exit_code": 0,
+    "tool_calls": 14,
+    "duration_seconds": 244.3335367249997
+  }
+]
